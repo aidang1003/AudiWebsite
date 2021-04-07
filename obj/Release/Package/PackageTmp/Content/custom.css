@@ -1,0 +1,59 @@
+﻿/*
+Dark Blue #27478C
+Light Red #D99F94
+Easter Purple #89A2D9
+Light Green #BCD98D
+Dark Green #668C27
+
+Black #000000
+White #FFFFFF
+*/
+
+
+body {
+    color: #27478C;
+    background-color: #D99F94;
+}
+
+.btn {
+    color: #27478C;
+    background-color: #89A2D9;
+    border-color: #27478C;
+}
+
+.jumbotron {
+
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.jumbo-subtext {
+    color: aliceblue;
+}
+
+.submitButton2 {
+    font-family: verdana, arial, snas-serif;
+    font-size: 11px;
+    color: #000000;
+    padding: 3px;
+    background: #f0f0f0;
+    border-left: solid 1px #c1c1c1;
+    border-top: solid 1px #cfcfcf;
+    border-right: solid 1px #cfcfcf;
+    border-bottom: solid 1px #6f6f6f;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+}
+
+.tableInformation {
+    width: 180px;
+    padding: 10px;
+    border: 2px;
+}
+
+.right {
+    text-align: right;
+}
