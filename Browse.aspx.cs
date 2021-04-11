@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using FinalProj.Data;
 
 namespace FinalProj
 {
@@ -11,7 +13,12 @@ namespace FinalProj
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DataTable dt = new DataTable();
+            // ExecuteSelectQuery();
+            BrowseGridView.DataSource = dt;
+            BrowseGridView.DataBind();
         }
+
+
     }
 }

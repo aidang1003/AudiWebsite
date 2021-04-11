@@ -2,4 +2,5 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Browse our inventory of cars</h1>
     <p>Here will be the location of the database for users to view</p>
+    <asp:GridView ID="BrowseGridView" runat="server"></asp:GridView>
 </asp:Content>

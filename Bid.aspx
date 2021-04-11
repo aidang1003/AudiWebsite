@@ -109,7 +109,7 @@
             <tr>
                 <th style="height: 60px;"></th>
                 <th style="height: 60px;">
-                    <asp:Button CssClass="submitButton2" ID="SubmitButton" runat="server" Text="Submit" />
+                    <asp:Button CssClass="submitButton2" ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
                     <asp:Button CssClass="submitButton2" ID="ClearButton" runat="server" Text="Clear" />
                 </th>
             </tr>
