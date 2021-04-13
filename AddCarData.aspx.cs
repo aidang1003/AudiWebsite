@@ -17,9 +17,22 @@ namespace FinalProj
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
-            string mySQL = "Insert into ag_AudiCarsTest (Year, Model, MSRP, Engine) Values('" + txtYear.Text + "','" + txtModel.Text + "', '" + txtMSRP.Text + "', '" + txtModel.Text + "')";
+            string mySQL = "Insert into ag_AudiCarsTest (Year, Model, MSRP, Engine) Values('" + txtYear.Text + "','" + txtModel.Text + "', '" + txtMSRP.Text + "', '" + txtEngine.Text + "')";
             DBConnection.ExecuteInsertQuery(mySQL);
-            lblResult.Text = mySQL;
+            lblResult.Text = "Your data has been submitted";
+            txtYear.Text = "";
+            txtModel.Text = "";
+            txtMSRP.Text = "";
+            txtEngine.Text = "";
+        }
+
+        protected void ClearButton_Click(object sender, EventArgs e)
+        {
+            lblResult.Text = "Your data has been cleared";
+            txtYear.Text = "";
+            txtModel.Text = "";
+            txtMSRP.Text = "";
+            txtEngine.Text = "";
         }
     }
 }

@@ -22,4 +22,6 @@
         <SortedDescendingHeaderStyle BackColor="#00547E" />
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:msci3120ConnectionString %>" SelectCommand="SELECT * FROM [ag_AudiCarsTest] ORDER BY [ID]"></asp:SqlDataSource>
+<br />
+    <a class="btn btn-default" href="AddCarData">Add Data &raquo;</a>
 </asp:Content>
