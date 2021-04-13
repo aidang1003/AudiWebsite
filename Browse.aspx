@@ -6,7 +6,7 @@
         <Columns>
             <asp:CommandField ShowSelectButton="True" />
             <asp:BoundField DataField="ID" HeaderText="ID" SortExpression="ID" />
-            <asp:BoundField DataField="_Year" HeaderText="Year" SortExpression="_Year" />
+            <asp:BoundField DataField="Year" HeaderText="Year" SortExpression="Year" />
             <asp:BoundField DataField="Model" HeaderText="Model" SortExpression="Model" />
             <asp:BoundField DataField="MSRP" HeaderText="MSRP" SortExpression="MSRP" />
             <asp:BoundField DataField="Engine" HeaderText="Engine" SortExpression="Engine" />

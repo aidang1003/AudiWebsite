@@ -167,6 +167,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AddCarData.aspx" />
     <Content Include="AdminDatabase.aspx" />
     <Content Include="Bid.aspx" />
     <Content Include="Browse.aspx" />
@@ -344,6 +345,13 @@
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCarData.aspx.cs">
+      <DependentUpon>AddCarData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCarData.aspx.designer.cs">
+      <DependentUpon>AddCarData.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminDatabase.aspx.cs">
       <DependentUpon>AdminDatabase.aspx</DependentUpon>
