@@ -50,20 +50,31 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/CarRanker">Ranker</a></li>
-                        <li><a runat="server" href="~/Browse">Browse</a></li>
-                        <li><a runat="server" href="~/Bid">Bid</a></li>
-                        <li><a runat="server" href="~/ViewBids">Your Bids</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="AdminDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin Controls</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="UserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="AdminDatabase">Admin</a> <br />
-                                <a class="dropdown-item" href="AddCarData">Add</a>
+                                <a runat="server" class="dropdown-item" href="~/User/CarRanker">Ranker</a> <br />
+                                <a runat="server" class="dropdown-item" href="~/User/Browse">Browse</a> <br />
+                                <a runat="server" class="dropdown-item" href="~/User/Bid">Bid</a> <br />
+                                <a runat="server" class="dropdown-item" href="~/User/ViewBids">Your Bids</a> <br />
+                            </div>
+                        </li>                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="AnalystDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analyst Controls</a>
+                            <div class="dropdown-menu">
+                                <a runat="server" class="dropdown-item" href="~/Analyst/AcceptBids">Accept Bids</a>
                             </div>
                         </li>
-                        <li><a runat="server" href="~/AcceptBids">Accept Bids</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="AdminDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin Controls</a>
+                            <div class="dropdown-menu">
+                                <a runat="server" class="dropdown-item" href="~/Admin/AdminDatabase">Admin</a> <br />
+                                <a runat="server" class="dropdown-item" href="~/Admin/AddCarData">Add</a>
+                            </div>
+                        </li>
+                        
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>

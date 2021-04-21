@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="AcceptBids.aspx" />
+    <Content Include="Analyst\AcceptBids.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
@@ -167,11 +167,11 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="AddCarData.aspx" />
-    <Content Include="AdminDatabase.aspx" />
-    <Content Include="Bid.aspx" />
-    <Content Include="Browse.aspx" />
-    <Content Include="CarRanker.aspx" />
+    <Content Include="Admin\AddCarData.aspx" />
+    <Content Include="Admin\AdminDatabase.aspx" />
+    <Content Include="User\Bid.aspx" />
+    <Content Include="User\Browse.aspx" />
+    <Content Include="User\CarRanker.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -227,18 +227,18 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="ViewBids.aspx" />
+    <Content Include="User\ViewBids.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcceptBids.aspx.cs">
+    <Compile Include="Analyst\AcceptBids.aspx.cs">
       <DependentUpon>AcceptBids.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AcceptBids.aspx.designer.cs">
+    <Compile Include="Analyst\AcceptBids.aspx.designer.cs">
       <DependentUpon>AcceptBids.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
@@ -346,18 +346,18 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddCarData.aspx.cs">
+    <Compile Include="Admin\AddCarData.aspx.cs">
       <DependentUpon>AddCarData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddCarData.aspx.designer.cs">
+    <Compile Include="Admin\AddCarData.aspx.designer.cs">
       <DependentUpon>AddCarData.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminDatabase.aspx.cs">
+    <Compile Include="Admin\AdminDatabase.aspx.cs">
       <DependentUpon>AdminDatabase.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminDatabase.aspx.designer.cs">
+    <Compile Include="Admin\AdminDatabase.aspx.designer.cs">
       <DependentUpon>AdminDatabase.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -371,25 +371,25 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Bid.aspx.cs">
+    <Compile Include="User\Bid.aspx.cs">
       <DependentUpon>Bid.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Bid.aspx.designer.cs">
+    <Compile Include="User\Bid.aspx.designer.cs">
       <DependentUpon>Bid.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Browse.aspx.cs">
+    <Compile Include="User\Browse.aspx.cs">
       <DependentUpon>Browse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Browse.aspx.designer.cs">
+    <Compile Include="User\Browse.aspx.designer.cs">
       <DependentUpon>Browse.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CarRanker.aspx.cs">
+    <Compile Include="User\CarRanker.aspx.cs">
       <DependentUpon>CarRanker.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CarRanker.aspx.designer.cs">
+    <Compile Include="User\CarRanker.aspx.designer.cs">
       <DependentUpon>CarRanker.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
@@ -429,11 +429,11 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewBids.aspx.cs">
+    <Compile Include="User\ViewBids.aspx.cs">
       <DependentUpon>ViewBids.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ViewBids.aspx.designer.cs">
+    <Compile Include="User\ViewBids.aspx.designer.cs">
       <DependentUpon>ViewBids.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
