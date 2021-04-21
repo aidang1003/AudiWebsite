@@ -8,7 +8,7 @@
             <asp:GridView ID="RankerGridView" ShowHeader="true" runat="server"></asp:GridView>
         </div>
         <div class="col-md-4"> 
-            <img src="Images/audiInterior.jpg" alt="Audi interior" style="width:100%;">
+            <img runat="server" src="~/Images/audiInterior.jpg" alt="Audi interior" style="width:100%;">
         </div>
     </div>
  

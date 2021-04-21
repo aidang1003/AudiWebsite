@@ -100,4 +100,3 @@ C:\Users\agorny\Admin\Spring2021\AppDevelopment\FinalProj\obj\Debug\FinalProj.cs
 C:\Users\agorny\Admin\Spring2021\AppDevelopment\FinalProj\obj\Debug\FinalProj.csproj.CopyComplete
 C:\Users\agorny\Admin\Spring2021\AppDevelopment\FinalProj\obj\Debug\FinalProj.dll
 C:\Users\agorny\Admin\Spring2021\AppDevelopment\FinalProj\obj\Debug\FinalProj.pdb
-C:\Users\agorny\Admin\Spring2021\AppDevelopment\FinalProj\obj\Debug\FinalProj.csprojAssemblyReference.cache
