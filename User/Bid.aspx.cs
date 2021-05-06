@@ -12,7 +12,7 @@ namespace FinalProj
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.txtDate.DataBind();
         }
 
         protected void SubmitButton_Click(object sender, EventArgs e)

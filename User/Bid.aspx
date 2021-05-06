@@ -1,12 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Bid.aspx.cs" Inherits="FinalProj.Bid" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Buy a car here</h1>
+  
     <div>
         <table>
             <tr>
                 <th class="tableInformation">Date: </th>
                 <th>
-                    <asp:TextBox ID="txtDate" runat="server" Type="date" Width="250px"></asp:TextBox>
+                    <asp:TextBox ID="txtDate" runat="server" Value=<%# DateTime.Now %> Text=<%# DateTime.Now %>  Width="250px" ReadOnly="true"></asp:TextBox>
                 </th>
                 <th>&nbsp</th>
             </tr>
@@ -16,6 +17,7 @@
                 <th>
                     <asp:DropDownList ID="txtCarBox" runat="server" Width="250px" Height="30px">
                       <asp:ListItem Selected="True" Value="None">Select Car</asp:ListItem>
+                        <asp:ListItem Value="1">Car 1</asp:ListItem>
                     </asp:DropDownList>     
                  </th>
                    <th>&nbsp</th>

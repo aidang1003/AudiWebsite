@@ -6,8 +6,8 @@
             <asp:BoundField DataField="BidID" HeaderText="BidID" ReadOnly="True" SortExpression="BidID" />
             <asp:BoundField DataField="CarDataID" HeaderText="CarDataID" SortExpression="CarDataID" />
             <asp:BoundField DataField="UserID" HeaderText="UserID" SortExpression="UserID" />
-            <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" />
-            <asp:BoundField DataField="BidAmt" HeaderText="BidAmt" SortExpression="BidAmt" />
+            <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" DataFormatString="{0:d}"/>
+            <asp:BoundField DataField="BidAmt" HeaderText="BidAmt" SortExpression="BidAmt" DataFormatString="{0:C}"/>
             <asp:BoundField DataField="Status" HeaderText="Status" SortExpression="Status" />
         </Columns>
         <FooterStyle BackColor="White" ForeColor="#000066" />
