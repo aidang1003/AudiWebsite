@@ -53,8 +53,9 @@
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="UserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="UserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User</a>
                             <div class="dropdown-menu">
+                                <a runat="server" class="dropdown-item" href="~/User/UserInfo">User Info</a> <br />
                                 <a runat="server" class="dropdown-item" href="~/User/CarRanker">Ranker</a> <br />
                                 <a runat="server" class="dropdown-item" href="~/User/Browse">Browse</a> <br />
                                 <a runat="server" class="dropdown-item" href="~/User/Bid">Bid</a> <br />

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FinalProj
+namespace FinalProj.Admin
 {
 
 
-    public partial class AdminDatabase
+    public partial class ManageUsers
     {
 
         /// <summary>
@@ -24,12 +24,12 @@ namespace FinalProj
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// CarDataAdmin control.
+        /// SCRUDUsers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource CarDataAdmin;
+        protected global::System.Web.UI.WebControls.SqlDataSource SCRUDUsers;
     }
 }

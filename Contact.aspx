@@ -13,8 +13,8 @@
             </address>
 
             <address>
-                <strong>Dealership:</strong>   <a href="mailto:Support@example.com">dealership@gmail.com</a><br />
-                <strong>Developer:</strong> <a href="mailto:Marketing@example.com">aidan-gorny@uiowa.edu</a>
+                <strong>Dealership:</strong>   <a href="aidan-gorny@uiowa.edu">dealership@gmail.com</a><br />
+                <strong>Developer:</strong> <a href="aidan-gorny@uiowa.edu">aidan-gorny@uiowa.edu</a>
             </address>
         </div>
         <div class="col-md-6">
