@@ -4,7 +4,7 @@
     <p>Only available to those with analyst role</p>
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#000099" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="3" DataKeyNames="BidID" DataSourceID="SqlDataSource1" Width="888px" AllowSorting="True">
         <Columns>
-            <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+            <asp:CommandField ShowEditButton="True" />
             <asp:BoundField DataField="BidID" HeaderText="BidID" ReadOnly="True" SortExpression="BidID" />
             <asp:BoundField DataField="CarDataID" HeaderText="CarDataID" SortExpression="CarDataID" />
             <asp:BoundField DataField="UserID" HeaderText="UserID" SortExpression="UserID" />

@@ -57,3 +57,11 @@ body {
 .right {
     text-align: right;
 }
+
+.dl-horizontal{
+    text-align: left;
+}
+
+.table {
+    width: 50%;
+}

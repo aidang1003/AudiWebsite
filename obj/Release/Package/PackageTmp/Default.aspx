@@ -4,8 +4,8 @@
 
     <div class="jumbotron" style="background-image: url(Images/audirs7.jpg); background-size: cover; height:500px;">
         <h1 style="color:aliceblue">Gorny's Car Dealership</h1>
-        <p class="jumbo-subtext">Here at Gorny's car dealership we believe in selling quality Audi's of every kind to consumers. Click below to sort our cars and find the one perfect for you</p>
-        <p><a href="CarRanker" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <p class="jumbo-subtext">Here at Gorny's car dealership we believe in selling quality Audi's of every kind to consumers. Click below to get registered with an account, and begin buying!</p>
+        <p><a href="Account/Register" class="btn btn-primary btn-lg">Register Now &raquo;</a></p>
     </div>
 
     <div class="row">
@@ -15,7 +15,7 @@
                 Browse our database below of Audi vehicles. Here you will find information on car specs such as engine type, speed stats, and safety features.
             </p>
             <p>
-                <a class="btn btn-default" href="Browse">Learn more &raquo;</a>
+                <a class="btn btn-default" href="User/Browse">Browse Cars &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -24,7 +24,7 @@
                 While all the MSRPs are listed Gorny's car dealership allows you to place offers on cars through a web form.
             </p>
             <p>
-                <a class="btn btn-default" href="Bid">Learn more &raquo;</a>
+                <a class="btn btn-default" href="User/Bid">Bid Now &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -33,7 +33,7 @@
                 See the status of you bids. When a bid is rejected a counter-offer becomes available so it is important to continuously moniter your bids!
             </p>
             <p>
-                <a class="btn btn-default" href="ViewBids">Learn more &raquo;</a>
+                <a class="btn btn-default" href="User/ViewBids">View Bids &raquo;</a>
             </p>
         </div>
     </div>

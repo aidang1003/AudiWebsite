@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AdminDatabase.aspx.cs" Inherits="FinalProj.AdminDatabase" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Here the admin will have SCRUD abilities over the database</h1>
+    <h1>Here the admin has SCRUD abilities over the database</h1>
     <p>This will only be available to the admin</p>
 
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="CarDataID" DataSourceID="SqlDataSource1" Width="1261px" CellSpacing="3" PageSize="20">
