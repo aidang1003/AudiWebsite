@@ -13,5 +13,10 @@ namespace FinalProj.Admin
         {
 
         }
+
+        protected void DetailsView1_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
+        {
+            GridView1.DataBind();
+        }
     }
 }

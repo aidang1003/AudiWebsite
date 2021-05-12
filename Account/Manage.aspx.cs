@@ -35,6 +35,8 @@ namespace FinalProj.Account
 
         protected void Page_Load()
         {
+            Label1.Text = Context.User.Identity.GetUserName();
+
             var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
 
             HasPhoneNumber = String.IsNullOrEmpty(manager.GetPhoneNumber(User.Identity.GetUserId()));
@@ -123,6 +125,11 @@ namespace FinalProj.Account
             manager.SetTwoFactorEnabled(User.Identity.GetUserId(), true);
 
             Response.Redirect("/Account/Manage");
+        }
+
+        protected void DetailsViewPageEventHandler()
+        {
+
         }
     }
 }

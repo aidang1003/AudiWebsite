@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FinalProj.Account {
-    
-    
-    public partial class Manage {
-        
+namespace FinalProj.Account
+{
+
+
+    public partial class Manage
+    {
+
         /// <summary>
         /// successMessage control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace FinalProj.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder successMessage;
-        
+
         /// <summary>
         /// ChangePassword control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace FinalProj.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink ChangePassword;
-        
+
         /// <summary>
         /// CreatePassword control.
         /// </summary>
@@ -38,14 +40,32 @@ namespace FinalProj.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink CreatePassword;
-        
+
         /// <summary>
-        /// PhoneNumber control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PhoneNumber;
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// DetailsView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DetailsView DetailsView1;
+
+        /// <summary>
+        /// UserInfo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource UserInfo;
     }
 }

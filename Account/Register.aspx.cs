@@ -6,6 +6,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
 using FinalProj.Models;
+using System.Data.SqlClient;
 
 namespace FinalProj.Account
 {

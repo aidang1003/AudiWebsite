@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AcceptBids.aspx.cs" Inherits="FinalProj.AcceptBids" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Where Salespeople will be able to accept and decline bids</h1>
-    <p>only available to those with salesperson role</p>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="BidID" DataSourceID="SqlDataSource1" Width="681px" AllowSorting="True">
+    <p>Only available to those with analyst role</p>
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#000099" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="3" DataKeyNames="BidID" DataSourceID="SqlDataSource1" Width="888px" AllowSorting="True">
         <Columns>
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
             <asp:BoundField DataField="BidID" HeaderText="BidID" ReadOnly="True" SortExpression="BidID" />
@@ -12,10 +12,10 @@
             <asp:BoundField DataField="BidAmt" HeaderText="BidAmt" SortExpression="BidAmt" DataFormatString="{0:C}"/>
             <asp:BoundField DataField="Status" HeaderText="Status" SortExpression="Status" />
         </Columns>
-        <FooterStyle BackColor="White" ForeColor="#000066" />
-        <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="White" ForeColor="#000066" HorizontalAlign="Left" />
-        <RowStyle ForeColor="#000066" />
+        <FooterStyle BackColor="White" ForeColor="#000099" />
+        <HeaderStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="White" ForeColor="#000099" HorizontalAlign="Left" />
+        <RowStyle ForeColor="#000099" />
         <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
         <SortedAscendingCellStyle BackColor="#F1F1F1" />
         <SortedAscendingHeaderStyle BackColor="#007DBB" />
